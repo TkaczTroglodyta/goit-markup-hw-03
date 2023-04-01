@@ -48,9 +48,6 @@ body {
   height: 80px;
   background-color: var(--color-bgcolor-primary);
 }
-.dark-bg {
-  background-color: var(--color-bgcolor-dark);
-}
 .logo {
   display: flex;
   font-family: var(--font-family-secondary), sans-serif;
@@ -58,9 +55,6 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
-}
-.menu {
-  padding-left: -100px;
 }
 .menu,
 .contacts {
@@ -71,6 +65,9 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+.dark-bg {
+  background-color: var(--color-bgcolor-dark);
 }
 .link {
   color: var(--color-text-primary);
