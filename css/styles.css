@@ -39,14 +39,17 @@ h1 {
   letter-spacing: 0.06em;
   color: var(--color-text-light);
   text-transform: uppercase;
+  padding: ;
 }
 h2 {
+  font-family: var(--font-family-primary);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.2;
   text-align: center;
 }
 h3 {
+  font-family: var(--font-family-primary);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
@@ -113,7 +116,7 @@ h3 {
   color: var(--color-text-secondary);
 }
 .section-slogan {
-  padding: 200px 252px;
+  padding: 200px 408px;
   text-align: center;
   background-color: var(--color-bgcolor-dark);
 }
@@ -144,17 +147,13 @@ h3 {
 }
 .infos {
   display: flex;
+  gap: 30px;
 }
 .infos p {
   font-size: 14px;
   line-height: 1.7;
   padding-top: 10px;
 }
-/* .section-activities {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-} */
 .activities {
   display: flex;
   justify-content: space-between;
@@ -163,15 +162,19 @@ h3 {
 .section-team {
   background-color: var(--color-bgcolor-light);
 }
-/* .team {
-  background-color: var(--color-bgcolor-light);
-} */
 .team {
   display: flex;
   justify-content: space-between;
   line-height: 1.2;
   text-align: center;
   padding-top: 50px;
+}
+.team-card {
+  height: 368px;
+  background-color: var(--color-bgcolor-primary);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team h3 {
   font-size: 16px;
