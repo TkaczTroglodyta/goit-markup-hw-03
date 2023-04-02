@@ -49,13 +49,12 @@ body {
 .page-header {
   display: flex;
   align-items: center;
-  height: 80px;
   background-color: var(--color-bgcolor-primary);
 }
 .logo {
   display: flex;
   font-family: var(--font-family-secondary), sans-serif;
-  padding: 24px 0;
+  padding: 24px 80px 24px 0;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
@@ -63,13 +62,13 @@ body {
 .menu {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
   padding: 32px 0;
 }
 .contacts {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
   padding: 32px 0;
 }
 .menu,
