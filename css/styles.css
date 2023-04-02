@@ -98,7 +98,7 @@ body {
   text-align: center;
   background-color: var(--color-bgcolor-dark);
 }
-h1 {
+.section-slogan h1 {
   font-family: var(--font-family-primary);
   font-size: 44px;
   font-weight: 900;
@@ -132,11 +132,9 @@ h1 {
   color: var(--color-text-light);
   background-color: var(--color-text-secondary);
 }
-.lead-tekst {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.2;
-  text-align: center;
+.infos {
+  display: flex;
+  padding-inline-start: 0px;
 }
 .infos h3 {
   font-size: 14px;
@@ -147,6 +145,18 @@ h1 {
 .infos p {
   font-size: 14px;
   line-height: 1.7;
+  padding-top: 10px;
+}
+.lead-tekst {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+.activities {
+  display: flex;
+  padding-inline-start: 0px;
+  justify-content: space-between;
 }
 .team {
   background-color: var(--color-bgcolor-light);
