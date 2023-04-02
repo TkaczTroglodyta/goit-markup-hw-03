@@ -39,12 +39,9 @@ body {
   margin: 0 auto;
 }
 .header {
-  border-bottom: 1px solid var(--color-border-primary);
-}
-.header,
-.container {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid var(--color-border-primary);
 }
 .page-header {
   display: flex;
@@ -70,6 +67,7 @@ body {
   align-items: center;
   gap: 40px;
   padding: 32px 0;
+  justify-content: flex-end;
 }
 .menu,
 .contacts {
@@ -92,10 +90,15 @@ body {
 .link-contact:hover {
   color: var(--color-text-secondary);
 }
-.slogan {
+.section-slogan {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 200px 252px;
   background-color: var(--color-bgcolor-dark);
 }
-.slogan h1 {
+h1 {
+  font-family: var(--font-family-primary);
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -111,6 +114,7 @@ body {
   font-weight: 700;
   line-height: 1.9;
   border: none;
+  margin-top: 30px;
 }
 .btn-filter {
   cursor: pointer;
@@ -118,7 +122,6 @@ body {
   background-color: var(--color-bgcolor-light);
   font-weight: 700;
   line-height: 1.6;
-  /* text-align: center; */
   border: none;
 }
 .btn-filter:hover,
