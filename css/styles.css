@@ -17,6 +17,7 @@
 }
 ul {
   list-style: none;
+  padding-inline-start: 0px;
 }
 a {
   text-decoration: none;
@@ -29,6 +30,27 @@ body {
   font-family: var(--font-family-primary);
   background-color: var(--color-bgcolor-primary);
   letter-spacing: 0.03em;
+}
+h1 {
+  font-family: var(--font-family-primary);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--color-text-light);
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
 }
 .section {
   padding: 94px 0;
@@ -91,21 +113,9 @@ body {
   color: var(--color-text-secondary);
 }
 .section-slogan {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
   padding: 200px 252px;
   text-align: center;
   background-color: var(--color-bgcolor-dark);
-}
-.section-slogan h1 {
-  font-family: var(--font-family-primary);
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  color: var(--color-text-light);
-  text-transform: uppercase;
 }
 .btn-slogan {
   cursor: pointer;
@@ -134,46 +144,46 @@ body {
 }
 .infos {
   display: flex;
-  padding-inline-start: 0px;
-}
-.infos h3 {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.1;
-  text-transform: uppercase;
 }
 .infos p {
   font-size: 14px;
   line-height: 1.7;
   padding-top: 10px;
 }
-.lead-tekst {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.2;
-  text-align: center;
-}
-.section-activities {
+/* .section-activities {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-}
+} */
 .activities {
   display: flex;
-  padding-inline-start: 0px;
   justify-content: space-between;
-  padding-top: 50px;
+  padding: 50px 0 94px 0;
 }
-.team {
+.section-team {
   background-color: var(--color-bgcolor-light);
 }
-.infos-team {
+/* .team {
+  background-color: var(--color-bgcolor-light);
+} */
+.team {
+  display: flex;
+  justify-content: space-between;
   line-height: 1.2;
   text-align: center;
+  padding-top: 50px;
 }
-.infos-team h3 {
+.team h3 {
+  font-size: 16px;
   font-weight: 500;
+  line-height: 1.2;
+  padding-top: 30px;
+  text-transform: none;
 }
+.team p {
+  padding: 10px;
+}
+/* portfolio */
 .achievements h3 {
   font-size: 18px;
   font-weight: 700;
