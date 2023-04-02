@@ -153,10 +153,16 @@ body {
   line-height: 1.2;
   text-align: center;
 }
+.section-activities {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
 .activities {
   display: flex;
   padding-inline-start: 0px;
   justify-content: space-between;
+  padding-top: 50px;
 }
 .team {
   background-color: var(--color-bgcolor-light);
