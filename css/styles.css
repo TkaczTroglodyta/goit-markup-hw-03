@@ -26,6 +26,23 @@ a {
 p {
   color: var(--color-text-medium);
 }
+h1 {
+  font-family: var(--font-family-primary);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--color-text-light);
+  text-transform: uppercase;
+}
+h2 {
+  font-family: var(--font-family-primary);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  /* padding-top: 47px; */
+}
 body {
   font-family: var(--font-family-primary);
   background-color: var(--color-bgcolor-primary);
@@ -130,6 +147,13 @@ body {
   display: flex;
   gap: 30px;
 }
+.infos h3 {
+  font-family: var(--font-family-primary);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
 .infos p {
   font-size: 14px;
   line-height: 1.7;
@@ -179,18 +203,25 @@ body {
   justify-content: center;
   gap: 8px;
 }
-.achieve-card {
-  height: 404px;
-  background-color: var(--color-bgcolor-primary);
-  border: 1px solid #eeeeee;
-}
 .achievements {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   padding: 0;
 }
-.achievements p {
+.achieve-card {
+  height: 404px;
+  background-color: var(--color-bgcolor-primary);
+  border: 1px solid #eeeeee;
+}
+.achieve-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  padding: 20px 24px 4px 24px;
+}
+.achieve-card p {
   line-height: 1.9;
   padding: 4px 24px 20px 24px;
 }
