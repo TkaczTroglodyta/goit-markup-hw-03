@@ -95,6 +95,7 @@ body {
   padding: 200px 408px;
   text-align: center;
   background-color: var(--color-bgcolor-dark);
+  padding-bottom: 94px;
 }
 .btn-slogan {
   cursor: pointer;
@@ -122,10 +123,6 @@ body {
 .btn-filter:focus {
   color: var(--color-text-light);
   background-color: var(--color-text-secondary);
-}
-.section-infos {
-  padding-top: 94px;
-  padding-bottom: 0;
 }
 .infos {
   display: flex;
