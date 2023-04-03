@@ -167,6 +167,9 @@ body {
 .team p {
   padding: 10px;
 }
+.footer-h {
+  padding: 32px 0;
+}
 /* portfolio */
 .section-btns {
   padding-bottom: 0;
