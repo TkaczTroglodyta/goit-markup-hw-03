@@ -168,13 +168,13 @@ body {
   padding: 10px;
 }
 /* portfolio */
+.section-btns {
+  padding-bottom: 0;
+}
 .selection-btns {
   display: flex;
   justify-content: center;
   gap: 8px;
-}
-.section-btns {
-  padding-bottom: 0;
 }
 .achieve-card {
   height: 404px;
