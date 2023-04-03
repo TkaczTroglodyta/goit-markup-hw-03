@@ -105,7 +105,7 @@ body {
   color: var(--color-text-secondary);
 }
 .section-slogan {
-  padding: 200px;
+  padding: 200px 0;
   text-align: center;
   background-color: var(--color-bgcolor-dark);
 }
